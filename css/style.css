@@ -1,0 +1,25 @@
+h3 {
+  color: cornflowerblue;
+}
+
+/* . Is For class */
+.primary-heading {
+  color: rgb(16, 218, 233);
+}
+
+/* # Is For Id */
+#Home {
+  background-color: gainsboro;
+}
+
+/* Multi Selectors */
+#Home, #promotion {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 4px;
+}
+
+/* Nested Selectors */
+#Home p {
+  font-size: 22px;
+}
