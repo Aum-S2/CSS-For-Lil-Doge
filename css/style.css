@@ -62,5 +62,17 @@ h3 {
 }
 
 #box-3 {
-  background-image: url()
+  /* background-image: url(/image/ray-hennessy.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+  background: url('/image/ray-hennessy.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 280px;
+  width: 640px;
+}
+
+#box-4 {
+  background: url('/image/leaf.png') no-repeat top center;
+  background-attachment: fixed;
 }
