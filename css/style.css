@@ -1,3 +1,10 @@
+/* CSS Reset / This will Include Everything */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 /* Element Selectors */
@@ -75,4 +82,32 @@ h3 {
 #box-4 {
   background: url('/image/leaf.png') no-repeat top center;
   background-attachment: fixed;
+}
+
+.box {
+  background: #f5f5f5;
+  border: 2px solid turquoise;
+  width: 550px;
+
+  /* on all sides */
+  padding: 25px;
+
+  /* per-side */
+  padding-top: 22px;
+  padding-right: 33px;
+  padding-bottom: 44px;
+  padding-left: 55px;
+
+  /* Faster Way To write Padding / In Order With 4 Values - Top, Right, Bottom & Left */
+  padding: 32px 43px 54px 65px;
+
+  /* This One With 2 Values - Top/Bottom, Left/Right */
+  padding: 60px 80px;
+
+  /* on all sides & It The Same As Margin */
+  margin: 40px;
+}
+
+.box h3 {
+  padding-bottom: 12px;
 }
