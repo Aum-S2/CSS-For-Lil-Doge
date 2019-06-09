@@ -188,4 +188,11 @@ a:active {
   border: 1px solid sandybrown;
   border-radius: 10px;
   width: 420px;
+  padding: 24px;
+}
+
+.side-menu li {
+  font-size: 18px;
+  line-height: 2.4em;
+  border-bottom: 1px dashed #ddd;
 }
