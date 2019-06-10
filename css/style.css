@@ -182,10 +182,13 @@ a:active {
 
 }
 
+
+/* Side Menu */
 .side-menu {
+  background-color: #444;
   list-style: none;
   text-decoration: none;
-  border: 1px solid sandybrown;
+  border: 1px solid orangered;
   border-radius: 10px;
   width: 420px;
   padding: 24px;
@@ -194,5 +197,47 @@ a:active {
 .side-menu li {
   font-size: 18px;
   line-height: 2.4em;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px dashed palegoldenrod;
+}
+
+.side-menu li:last-child {
+  border: none;
+}
+
+.side-menu li a {
+  color: deepskyblue;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.side-menu li a:hover {
+  color: lawngreen;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: thistle;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 6px;
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  color: saddlebrown;
+  text-decoration: none;
+  display: block;
+  padding: 17px 22px;
+}
+
+.navbar li a:hover {
+  font-size: 18px;
+  background-color: plum;
+  color: rebeccapurple;
 }
