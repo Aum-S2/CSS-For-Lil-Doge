@@ -241,3 +241,24 @@ a:active {
   background-color: plum;
   color: rebeccapurple;
 }
+
+.il li {
+  display: inline;
+}
+
+.il li a {
+  padding-right: 24px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.boxii {
+  width: 32.99%;
+  display: inline-block;
+  background: peachpuff;
+  padding: 22px;
+  margin-bottom: 16px;
+}
