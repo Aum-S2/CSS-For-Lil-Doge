@@ -242,6 +242,7 @@ a:active {
   color: rebeccapurple;
 }
 
+/* inline-block */
 .il li {
   display: inline;
 }
@@ -261,4 +262,29 @@ img {
   background: peachpuff;
   padding: 22px;
   margin-bottom: 16px;
+}
+
+/* positioning */
+.boxxii {
+  width: 100px;
+  height: 100px;
+}
+
+#box-11 {
+  position: relative;
+  top: 45px;
+  left: 70px;
+  background: yellowgreen;
+}
+#box-12 {
+  background: violet;
+}
+#box-13 {
+  background: tomato;
+}
+#box-14 {
+  background: green;
+}
+#box-15 {
+  background: royalblue;
 }
