@@ -275,16 +275,35 @@ img {
   top: 45px;
   left: 70px;
   background: yellowgreen;
+  z-index: 1;
 }
 #box-12 {
+  position: absolute;
+  top: 90px;
+  left: 100px;
   background: violet;
 }
 #box-13 {
+  position: absolute;
+  bottom: 90px;
+  right: 150px;
   background: tomato;
 }
 #box-14 {
+  position: fixed;
+  left: 50px;
   background: green;
 }
 #box-15 {
+  position: sticky;
+  top: 0;
   background: royalblue;
+  z-index: -1;
+}
+
+.container1 {
+  position: relative;
+  width: 480px;
+  height: 360px;
+  background: turquoise;
 }
